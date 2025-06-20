@@ -7,8 +7,8 @@ deployment:
     - /bin/cp -R nstbingo $DEPLOYPATH
     - /bin/cp -R pages $DEPLOYPATH
     - /bin/cp -R misc $DEPLOYPATH
-    - /bin/cp -R browserconfig.xml $DEPLOYPATH
-    - /bin/cp -R index.css $DEPLOYPATH
-    - /bin/cp -R index.html $DEPLOYPATH
-    - /bin/cp -R index.js $DEPLOYPATH
-    - /bin/cp -R site.webmanifest $DEPLOYPATH
+    - /bin/cp browserconfig.xml $DEPLOYPATH
+    - /bin/cp index.css $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.js $DEPLOYPATH
+    - /bin/cp site.webmanifest $DEPLOYPATH
