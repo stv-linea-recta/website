@@ -3,4 +3,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=~/public_html/
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R nstbingo $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp -R misc $DEPLOYPATH
+    - /bin/cp -R browserconfig.xml $DEPLOYPATH
+    - /bin/cp -R index.css $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R index.js $DEPLOYPATH
+    - /bin/cp -R site.webmanifest $DEPLOYPATH
