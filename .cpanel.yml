@@ -1,14 +1,13 @@
-##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/turnverenigingli/public_html/
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R nstbingo $DEPLOYPATH
-    - /bin/cp -R pages $DEPLOYPATH
-    - /bin/cp -R misc $DEPLOYPATH
-    - /bin/cp browserconfig.xml $DEPLOYPATH
-    - /bin/cp index.css $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp index.js $DEPLOYPATH
-    - /bin/cp site.webmanifest $DEPLOYPATH
+    - export DEPLOYPATH="/home/turnverenigingli/public_html"
+    - cp -R assets "$DEPLOYPATH"
+    - cp -R nstbingo "$DEPLOYPATH"
+    - cp -R pages "$DEPLOYPATH"
+    - cp -R misc "$DEPLOYPATH"
+    - cp browserconfig.xml "$DEPLOYPATH"
+    - cp index.css "$DEPLOYPATH"
+    - cp index.html "$DEPLOYPATH"
+    - cp index.js "$DEPLOYPATH"
+    - cp site.webmanifest "$DEPLOYPATH"
