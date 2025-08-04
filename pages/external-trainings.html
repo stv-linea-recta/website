@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,44 +15,8 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="../index.css">
     <script src="../index.js"></script>
-    <title>Open Trainings | LINEA RECTA</title>
+    <title>External Trainings | LINEA RECTA</title>
 </head>
-<style>
-    .list {
-        padding: 0;
-        display: grid;
-        grid-gap: 1rem;
-        grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-        justify-content: space-between;
-    }
-
-    .list a {
-        all: unset;
-        color: white;
-        padding: 1em 2.5em;
-        box-sizing: border-box;
-        margin: 0.5em;
-        border-radius: 1em;
-        overflow: auto;
-        min-width: 15em;
-        height: fit-content;
-        background-color: var(--background-color);
-        border: 0.1em solid var(--background-color);
-        text-align: center;
-        transition: all ease 0.2s;
-    }
-
-    .list-elem:hover {
-        background: color-mix(in oklab, var(--background-color) 90%, rgb(147, 139, 139));
-        border: 0.1em solid var(--primary-color);
-        cursor: pointer;
-    }
-
-    .disabled {
-        pointer-events: none;
-        opacity: 0.7;
-    }
-</style>
 <body>
 <div class="header">
     <div class="primary-header">
@@ -79,8 +42,8 @@
                     <a href="javascript:void(0)" class="active">Trainings</a>
                     <div class="dropdown-content">
                         <a href="schedule.html">Schedule</a>
-                        <a href="open-trainings.html" class="active">Open trainings</a>
-                        <a href="external-trainings.html">External</a>
+                        <a href="open-trainings.html">Open trainings</a>
+                        <a href="external-trainings.html" class="active">External</a>
                         <a href="u-turn.html">U-turn training</a>
                     </div>
                 </li>
@@ -103,47 +66,27 @@
 <div class="page">
     <img src="../assets/linea-recta-yuri-light.svg" class="yuri yuri-light">
     <img src="../assets/linea-recta-yuri-dark.svg" class="yuri yuri-dark">
-    <div class="content-container">
-        <h1>Open trainings</h1>
-        <hr>
-        <p>
-            We're hyped that you are interested in our trainings!
-        </p>
-        <dl>
-            Usually, we train inside in SC4 during the following times:
-            <dt>Monday</dt>
-            <dd>19:30 - 21:15 ~ All round gymnastics training</dd>
-            <dd>21:15 - 23:00 ~ Free training without trainer</dd>
-            <dt>Wednesday</dt>
-            <dd>18:00 - 20:00 ~ All round gymnastics training</dd>
-            <dd>19:45 - 21:45 ~ Gymnastics & jumping training</dd>
-            <dt>Friday</dt>
-            <dd>16:30 - 18:30 ~ Free training without trainer</dd>
-        </dl>
-        <h3>Upcoming trainings</h3>
-        <p>
-            With the start of the new acedemic year, we invite you all to join our open trainings!
-            For the first three weeks of the academic year, the following trainings are open:
+    <div class="content-container contact-container">
+        <div class="contact">
+            <h1>External Trainings</h1>
+            <hr>
+            <p>
+                Every month, there is an external training in a gymnastics hall in Hengelo, Almelo or Rijssen. Here we
+                can train using a big square floor, foam pits, and many other things!
+                </p>
+            <p>
+                For transport to the training we
+                usually go by car or public transport (to Hengelo we go by bike). Travel expenses can be invoiced to
+                Linea Recta, so you can enjoy the external trainings without extra costs!
             </p>
-        <ul>
-            <li>Monday 19:30-21:15</li>
-            <li>Wednesday 18:00-20:00</li>
-            <li>Wednesday 19:45-21:45</li>
-        </ul>
-        <p>
-            For joining one of these trainings <strong>it is required to sign up</strong>.
-            So, if you are interested in becoming part of Linea Recta, or just want to try a training, sign up using the
-            link below!
-        </p>
-        <div class="list">
-            <a class="list-elem" href="https://forms.gle/ibvxJ1BTHSnsgq2b8">
-                Sign up for an open training!
-            </a>
         </div>
-        <p>
-            We hope to see you there!
-        </p>
-        <hr>
+<!--        <div class="mapouter">-->
+<!--            <div class="gmap_canvas">-->
+<!--                <iframe height="500" id="gmap_canvas"-->
+<!--                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.955277236571!2d6.525976827864683!3d52.31681402513282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7f626aba7ed77%3A0xc986c84c5faf0893!2sTurnschool%20Rijssen!5e0!3m2!1snl!2snl!4v1666703730340!5m2!1snl!2snl"-->
+<!--                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </div>
 <footer class="flex-container">
@@ -155,11 +98,10 @@
                 Postbus 217 7500 AE Enschede
             </p>
         </div>
-        <div style="flex-direction: column; gap: 0; align-items: center;"><a
-                href="mailto:bestuur@linearecta.utwente.nl" style="color: white;">bestuur@linearecta.utwente.nl</a>
+        <div style="flex-direction: column; gap: 0; align-items: center;"><a href="mailto:bestuur@linearecta.utwente.nl"
+                                                                             style="color: white;">bestuur@linearecta.utwente.nl</a>
             <p style="margin-top: 0.2em;">Made by <a href="board.html#naud" style="color: var(--primary-color)">Naud
-                Toorop</a></p>
-        </div>
+                Toorop</a></p></div>
         <div><a href="http://www.instagram.com/stvlinearecta/">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
