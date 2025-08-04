@@ -2,7 +2,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=~/public_html/
+    - export DEPLOYPATH=/home/turnverenigingli/public_html/
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R nstbingo $DEPLOYPATH
     - /bin/cp -R pages $DEPLOYPATH
