@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH="/home/turnverenigingli/public_html"
+    - cp -R assets "$DEPLOYPATH"
+    - cp -R nstbingo "$DEPLOYPATH"
+    - cp -R pages "$DEPLOYPATH"
+    - cp -R misc "$DEPLOYPATH"
+    - cp browserconfig.xml "$DEPLOYPATH"
+    - cp index.css "$DEPLOYPATH"
+    - cp index.html "$DEPLOYPATH"
+    - cp index.js "$DEPLOYPATH"
+    - cp site.webmanifest "$DEPLOYPATH"
