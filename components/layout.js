@@ -6,8 +6,8 @@ class SiteLayout extends HTMLElement {
         this.innerHTML = `
       <site-header></site-header>
       <div class="page">
-        <img src="../assets/linea-recta-yuri-light.svg" class="yuri yuri-light">
-        <img src="../assets/linea-recta-yuri-dark.svg" class="yuri yuri-dark">
+        <img src="/assets/linea-recta-yuri-light.svg" class="yuri yuri-light">
+        <img src="/assets/linea-recta-yuri-dark.svg" class="yuri yuri-dark">
       <main>
         ${this.innerHTML}
       </main>

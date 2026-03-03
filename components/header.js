@@ -32,7 +32,7 @@ template.innerHTML = `
               <a href="/pages/schedule.html">Schedule</a>
               <a href="/pages/open-trainings.html">Open trainings</a>
               <a href="/pages/external-trainings.html">External</a>
-              <a href="/pages/u-turn.html">U-turn training</a>
+              <a href="/pages/sister-trainings.html">Sister trainings</a>
             </div>
           </li>
           <li class="dropdown">

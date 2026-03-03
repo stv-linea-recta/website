@@ -1,7 +1,7 @@
 const template = document.createElement("template");
 
 template.innerHTML = `
-<link rel="stylesheet" href="../index.css">
+<link rel="stylesheet" href="/index.css">
 
 <footer class="flex-container">
     <div class="flex-container footer-box">
