@@ -52,7 +52,7 @@ class BoardCarousel extends HTMLElement {
     /* Background image */
     .card-image {
         width: 100%;
-        height: 80vh;
+        max-height: 80vh;
     }
     
     .slide img {
@@ -157,15 +157,34 @@ class BoardCarousel extends HTMLElement {
       z-index: 0;
     }
 
-    @media (max-width: 600px) {
-      h2 {
-        font-size: 1.5rem;
-      }
+    /* Default: overlay over the image */
+.card-body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.47);
+}
 
-      table {
-        font-size: 0.85rem;
-      }
+/* Mobile: move table below the image */
+@media (max-width: 600px) {
+    .card-body {
+        position: relative; /* no longer absolute */
+        background: none;   /* remove overlay */
+        padding: 15px 10px;
     }
+
+    .slide img {
+        height: 50vh; /* give image more breathing room */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+}
   </style>
 
   <div class="carousel">
