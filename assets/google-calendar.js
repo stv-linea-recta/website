@@ -441,7 +441,7 @@ window.formatGoogleCalendar = (() => {
   return { 
       init: function (settingsOverride) {
           var settings = {
-              calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/milan.kacurak@gmail.com/events?key=AIzaSyCR3-ptjHE-_douJsn8o20oRwkxt-zHStY',
+              calendarUrl: '',
               past: false,
               upcoming: true,
               sameDayTimes: true,
